@@ -1,0 +1,29 @@
+// Use Compass 
+$svg-gradient-shim-threshold: 0.1;
+@import "compass/css3";
+
+// Color Variables
+$color-base: #7e7e7e;
+$color-heading: #373737;
+$color-subhead: #838383;
+$color-primary: #0069aa;
+
+// Grid
+$grid-gutter: 20px;
+
+// Fonts
+$font-body: Verdana,Geneva,sans-serif;
+$font-heading: "Arial Narrow",Arial,sans-serif;
+$font-size-base: 13px;
+
+// Hover background color
+$link-selection: rgba($color-primary, 0.75);
+$body-bg: #fff;
+ 
+
+@import "modules/utilities";
+// Third Party Partials
+@import "vendor/normalize";
+
+@import "partials/grid-fluid";
+@import "partials/base";

@@ -1,0 +1,38 @@
+/* ================================================================
+   PRIMARY LAYOUT STYLES 
+   ================================================================ */
+
+/* ================================================================
+   Header
+   ================================================================ */
+a {
+	color: $color-base;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		text-decoration: underline;
+	}
+}
+.header{
+	@extend .container;
+}
+
+.footer{
+	@extend .container;
+}
+.main{
+	margin: 40px 0;
+}
+
+.video-player{
+	// position: relative;
+	// &:before{
+	// 	content:'video here';
+	// }
+}
+
+.container [class*="grid-"]{
+	background:#cccccc;
+	padding-top:10px;
+	padding-bottom:10px;
+}

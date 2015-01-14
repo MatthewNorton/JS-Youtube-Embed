@@ -1,2 +1,2 @@
-# JS-Youtube-Embed
-Grabs the ID from the markup and embeds an iframe through javascript
+# JS-Base-Structure
+A base structure to build my JS plugins from
